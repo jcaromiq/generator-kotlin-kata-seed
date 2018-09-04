@@ -28,5 +28,5 @@ yo kotlin-kata-seed
 Apache-2.0 © [JoaquinCaro](https://github.com/jcaromiq/)
 
 
-[npm-image]: https://badge.fury.io/js/generator-ts-jest-seed.svg
+[npm-image]: https://badgen.net/npm/v/generator-kotlin-kata-seed
 [npm-url]: https://npmjs.org/package/generator-kotlin-kata-seed
