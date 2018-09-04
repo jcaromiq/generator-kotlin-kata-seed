@@ -42,10 +42,6 @@ module.exports = class extends Generator {
         );
 
         this.fs.copy(
-            this.templatePath('.gradle/**/*'),
-            this.destinationPath('.gradle')
-        );
-        this.fs.copy(
             this.templatePath('gradle/**/*'),
             this.destinationPath('gradle')
         );
