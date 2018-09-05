@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- "9"
+
+deploy:
+  provider: script
+  script: "npm install && npm run release -p"
+  
+
+notifications:
+  email:
+    recipients:
+    - me@joaquin-caro.es
+    on_success: change
+    on_failure: always
