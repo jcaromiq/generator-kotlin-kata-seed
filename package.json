@@ -18,7 +18,8 @@
     "seed"
   ],
   "scripts": {
-    "release": "release-it"
+    "release": "release-it",
+    "test": "echo no test"
   },
   "devDependencies": {
     "release-it": "^7.4.7"
