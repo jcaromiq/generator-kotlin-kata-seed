@@ -4,7 +4,7 @@ node_js:
 
 deploy:
   provider: script
-  script: "npm install && npm run release -p"
+  script: "npm install && npm run release -n"
   
 
 notifications:
