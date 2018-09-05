@@ -2,9 +2,8 @@ language: node_js
 node_js:
 - "9"
 
-deploy:
-  provider: script
-  script: "npm install && npm run release -n"
+script:
+  - "yarn release -n"
   
 
 notifications:
