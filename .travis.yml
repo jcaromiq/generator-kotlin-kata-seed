@@ -2,10 +2,13 @@ language: node_js
 node_js:
 - "9"
 
-script:
-  - "yarn release -n"
-  
-
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: npm run release
+  on:
+    branch: master
+    
 notifications:
   email:
     recipients:
